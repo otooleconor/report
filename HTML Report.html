@@ -113,14 +113,25 @@
           </p>
           <img src="https://cdn.glitch.global/ac84824f-42ed-4486-a0f9-17ebf95cc140/2ffe4d86-e1d5-4245-b60c-383e0b66daeb.image.png?v=1648587669783" width= "500">
           <p>
-           
+           On the left side is the code to connect the micro bit to the internet and to thing speak. It shows two symbols, a tick if it’s connected to thing speak and a smiley face if its connected to the internet. Left side is all when the micro bit starts up. On the right is what happens whenever the micro bit is on. It shows the temperature detected by the moisture sensor and micro bit and sends the temperature via radio to the receiver to tell the user that it is too hot. It uses an if statement to say that if the temperature is less than 50 it will show an arrow and send a signal to start the water pump else it will show an angry face and not activate the pump. It uses the API key to connect to a specific thing speak and upload the data to thing speak. 
+          </p>
+          <p>The receiver code however is a lot more simplistic in comparison to the transmitter
+          </p>
+          <img src="https://cdn.glitch.global/ac84824f-42ed-4486-a0f9-17ebf95cc140/77739f6f-56e2-4843-97d5-85ecf0336dea.image.png?v=1648588914120" width="500">
+          <p>In the on-start column it is using the radio set group as the same as the transmitter so that the two micro bits can communicate with each other. It shows a smiley face to show it is on as there was confusion in the testing phase whether it was on or not. In the forever column, it uses an if statement and else if statement to set the parameters for if it's hot, cold, or perfect. If it is lower than 15 it is cold, if it is 15 it is perfect and if its higher its too hot and pumps water.
           </p>
           
           <h2>
             Evaluation
           </h2>
           <p>
-            put your report here
+            In all, the finished iteration of the artefact met my ambitions perfectly. Even with the setback of my original idea not working the finished product of the mechanical greenhouse arrangement met all requirements set out in the brief and achieved my own personal goals for the artefact. The artefact itself is an embedded system using both analogue and digital signals. It is a closed and single system that can act on its own without input from the actual user. It communicates with thing speak and the HTML website on the profile page. To my knowledge, the artefact meets all advanced and basic requirements outlined in the brief.
+          </p>
+          <p>
+            The artefact also satisfies all the needs of the envisaged end-user for the exception of if the soil has too much moisture / is “too cold”. That requires the user to decide on what to do with that information however there are very few times in a greenhouse when the soil has too much moisture so that oversight can be seen as unnecessary in the first place. 
+          </p>
+          <p>
+           The artefact could definitely be improved over time. A servo could be added to open ventilation in the green house and/or trigger an alarm system to alert the user. A heating unit could be added to solve the aforementioned oversight of no solution if the moisture of the soil is too high. The artefact in theory could also apply to a sauna or fireplace just with a change in parameters. Since putting water on the coal in a sauna is likely to make the room hotter a change in parameters would be needed. However, the very robust coding of the artefact and the robust nature of the artefact itself means it can be used in all sorts of ways to solve all sorts of problems revolving around the temperature of moisture levels. 
           </p>
         </div>
       </div>
