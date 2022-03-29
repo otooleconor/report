@@ -76,25 +76,28 @@
           <h2>
             Implementation and testing
           </h2>
+          <h7>First Iteration</h7>
           <p>
            . I had to test how the artefact would function and if there were any problems with the artefact itself. This is where problems began to arise. Originally the idea for my artefact consisted of a security system with a PIR motion sensor that communicated to the other micro bit to tell the user that it detects movement in a room or specified area. I had the code written the micro bit wired and half the report written however when I went to test the micro bit on the 16th of January 2022 it didn’t work. I remade the code from scratch I tested it again still no response. I readjusted the sensor and tried everything, and it wouldn’t work.
           </p>
-          <img src="https://cdn.glitch.global/ac84824f-42ed-4486-a0f9-17ebf95cc140/7bd997c0-3301-43b6-b3a8-5f14ba8e7862.image.png?v=1648585911823" width="275">
+          <img src="https://cdn.glitch.global/ac84824f-42ed-4486-a0f9-17ebf95cc140/7bd997c0-3301-43b6-b3a8-5f14ba8e7862.image.png?v=1648585911823" width="350">
           <p>
-           
+           As I have no engineering background the only logical explanation is that the PIR sensor itself was broken to some extent as the code was solid and the wiring was also solid. Due to this setback so close to the deadline I had to go with my second and easier idea a mechanical greenhouse arrangement. 
+          </p>
+          <h6>Final Iteration</h6>
+          <p>
+           The mechanical greenhouse arrangement was the contingency plan in case the motion sensor didn’t work. The code itself wasn’t complicated just the coding of the pins and the construction of the artefact. The artefact consisted of two micro bits. One acting as the receiver and one acting as the transmitter. One would sense that the soil has low moisture or is “too hot” and send a radio signal to the other micro bit telling it that it is too hot with lights varying from red to green. The transmitter micro bit will then pump water into the soil to “cool it down” and increase moisture levels.
           </p>
           <p>
-           
+           Due to the rapid change in the artefact, the entire development process was done on the dates of the 16th of January – 20th of January. The coding, construction, testing, implementation, and the report was done between these dates. The HTML project was already completed beforehand. 
           </p>
           <p>
-           
+           On the 16th of January, the mechanical greenhouse arrangement was started and completed. A shortage of micro bits and other instrumental parts of the artefact was of short supply which contributed to the conservative design. The transmitter is connected to the IoT bit to connect the micro bit and sensors to thing speak so the data and be tracked and put on the HTML website. The IoT bit is connected to a relay, a moisture sensor, and a water pump.
           </p>
           <p>
-           
+           In initial testing the artefact failed to function as one of the pins in the relay was broken and a new relay had to be obtained. Another oversight from me was the numbering of the pins in the code. I forgot to change the numbers on the corresponding pins on the IoT bit and the receiver in the code. This also stopped the transmitter from working. The last mistake made was the relay and moisture sensor were put into the wrong pins resulting in no water being pumped as it was receiving no signal. The IoT bit is connected to a laptop or computer and communicates with the receiver via radio signal.
           </p>
-          <p>
-           
-          </p>
+          <img src="https://cdn.glitch.global/ac84824f-42ed-4486-a0f9-17ebf95cc140/d2d41efb-d5cb-46b2-976e-edca9a8c30d2.image.png?v=1648584526887">
           <p>
            
           </p>
